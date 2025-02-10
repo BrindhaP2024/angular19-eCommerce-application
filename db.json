@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "fullName": "dfsdf",
+      "email": "fsdf@sfdfg.fgdf",
+      "password": "123",
+      "id": "1"
+    },
+    {
+      "fullName": "Test User",
+      "email": "haseenakhader.uk@gmail.com",
+      "password": "123",
+      "id": "2"
+    },
+    {
+      "fullName": "Test User",
+      "email": "haseenakhader.uk@gmail.com",
+      "password": "123456",
+      "id": "3"
+    },
+    {
+      "fullName": "Test User",
+      "email": "haseenakhader.uk@gmail.com",
+      "password": "123",
+      "id": "4"
+    },
+    {
+      "fullName": "brindha",
+      "email": "brindha@gmail.com",
+      "password": "12345678",
+      "id": "5"
+    },
+    {
+      "fullName": "Brindha",
+      "email": "br@gmail.com",
+      "password": "123456789",
+      "id": "6"
+    },
+    {
+      "id": "d145",
+      "firstName": "Brindha",
+      "lastName": "Palani",
+      "email": "brindha@gmail.com",
+      "password": "Brindha@12"
+    }
+  ],
+  "products": [
+    {
+      "name": "Oppo Reno 10 Pro 5G 12GB 256GB Glossy Purple",
+      "price": "54999",
+      "category": "Oppo",
+      "color": "#d1a3d2",
+      "general": "In The Box Handset, Charger, USB Data Cable, Sim Ejector Tool, Safety Guide,Quick Guide,Protective Case Model Number-CPH2525,Model Name-Reno10 Pro 5G,Color-Glossy Purple,Browse Type-Smartphones,SIM Type-Dual Sim,Hybrid Sim Slot-No Touchscreen-Yes,OTG Compatible-Yes,Quick Charging-Yes",
+      "performace": "Operating System-Android 13,Processor Type-Snapdragon 778G 5G,Processor Core - Octa Core,Primary,Clock Speed-2.4 GHz",
+      "display": " Display Size-17.02 cm (6.7 inch),Resolution- 2412 x 1080 Pixel,Resolution Type-Full HD+GPU Adreno 642L, Display Type-Full HD+ OLED Display",
+      "camera": "Primary Camera-\n50MP + 32MP + 8MP, Secondary Camera-32MP Front Camera,Video Recording Resolution-4K (at 30 fps),1080p (at 30 fps),\nDigital Zoom-\n20X,\nFrame Rate-\n30 fps,\nDual Camera Lens-\nPrimary Camera.",
+      "Battery": "\nBattery Capacity-4600 mAh, Depth-\n7.89 mm,\nWeight-\n185 g.",
+      "image": "https://assets.sangeethamobiles.com/product_img/13715/1688639906_Vxo.jpg",
+      "Stock": "4 left",
+      "id": 1
+    },
+    {
+      "name": "Samsung Galaxy M14 5G (ICY Silver, 6GB, 128GB Storage)",
+      "price": "15000",
+      "category": "Samsung",
+      "color": "Pink",
+      "general": "In The Box\nType-C Data Cable, Quick Start Guide, Sim Ejection Pin,\nModel Number-\nSM-M146B,\nModel Name-\nGalaxy M14 5G,\nColor-\nIcy Silver,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nNo,\nTouchscreen-\nYes,\nOTG Compatible-\nYes.",
+      "performace": "Operating System-Android Android 13.0,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed\n-2.4 GHz.",
+      "display": "Display Size-\n16.76 cm (6.6 inch),\nResolution-\n1080 x 2408 Pixels.",
+      "Camera": "Primary Camera-\n50MP Rear Camera.",
+      "Battery": "Battery Capacity\n-6000 mAh,Warranty Summary-1 year",
+      "image": "https://m.media-amazon.com/images/I/817WWpaFo1L._SX679_.jpg",
+      "stock": "5left",
+      "id": 2
+    },
+    {
+      "name": "Oppo F23 5G (Bold Gold, 8GB RAM, 256GB Storage)",
+      "price": "24999",
+      "category": "Oppo",
+      "color": "Gold",
+      "general": "8 GB RAM | 256 GB ROM\n\nIn The Box-\nScreen Protector, SIM Tray Ejector, Phone Case, USB Cable, Adapter.\nModel Number-\nF23 5G,\nModel Name-\nF23 5G | 64MP Rear Triple AI Camera | 6.72\" FHD+ 120Hz,Display\nColor-\nBold Gold,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nYes,\nTouchscreen-\nYes,\nOTG Compatible\n-Yes,\nAdditional Content-\nExpandable Upto 1TB.",
+      "performace": "\nOperating System\n-Android 13 (Tiramisu),\nPrimary Clock Speed-\n1.2 GHz.",
+      "display": "Display Size-\n16.66 cm (6.56 inch),\nResolution-\n2400×1080.",
+      "Camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary & Secondary Camera",
+      "Battery": "Battery Capacity-\n5000 mAh, Other Features-\nDual SIM, Fingerprint Sensor, Water Resistant,\nWarranty Summary-\n12 Months.",
+      "image": "https://m.media-amazon.com/images/I/81t-iyg0JfL._SL1500_.jpg",
+      "stock": "4left",
+      "id": 3
+    },
+    {
+      "name": "Oppo A78 5G (Glowing Blue, 8GB RAM, 128 Storage)",
+      "price": "18999",
+      "category": "Oppo",
+      "color": "Blue",
+      "general": "In The Box-\nHandset, Charger, USB Data Cable, Sim Ejector Tool, Quick Guide, Safety Guide, Protective Case.\nModel Number-\nCPH2495,\nModel Name-\nA78 5G,\nColor-\nGlowing Blue\n,Browse Type-\nSmartphones\nSIM Type-\nDual Sim-Yes",
+      "performace": "Operating System-\nAndroid 13,\nProcessor Type-\n6833,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed\n-2.2 GHz\nOperating Frequency\n-2G GSM: 850 MHz/900 MHz/1800 MHz, 3G WCDMA: B1/B5/B8, 4G LTE FDD: B1/B3/B5/B8/B28A, 4G LTE TDD: B39/B40/B41, 5G NR: n1/n5/n8/n28A/n41/n78.",
+      "display": "Display Size-\n16.66 cm (6.56 inch)\n,Resolution-\n1612 x 720 Pixels\nResolution Type-\nHD+\nGPU\nMali-G57 MC2\nDisplay Type-\nLCD Display,\nDisplay Colors-\n16.7 Million (8 Bit),\nOther Display Features-\n90Hz Refresh Rate, Screen-to-Body Ratio: 89.8%, 90Hz Touch Sampling Rate, Color Gamut: Vivid Mode (96% NTSC/100% DCI-P3), Gentle Mode (72% NTSC/100% sRGB), Brightness: 480nits, Brightness Under Sunlight: 600nits.\n",
+      "Camera": "Primary Camera\n50MP + 2MP,Primary Camera Features\nDual Camera Setup: 50MP Main Camera (f/1.8 Aperture, FOV: 77 Degree, 5P Lens, Auto Focus Supported, Open-loop Focus Motor) + 2MP (f/2.4 Aperture, FOV: 89 Degree, 3P + IR Lens, Fixed Focus), Features: Night, Videos, Photos, Portrait, Expert, Extra HD, Panoramic, Timelapse, Slow Motion, Sticker, Text Scanner, and Google Lens,Secondary Camera-\n8MP Front Camera,Secondary Camera Features\n8MP Front Camera: (f/2.0 Aperture, FOV: 77 Degree, 4P Lens, Fixed Focus), Feature: Night, Video, Photo, Portrait, Panorama, Timelapse, Sticker,Video Recording Resolution\nRear Camera: 1080P (at 30 fps), 720P (at 30 fps) | Front Camera: 1080P (at 30 fps), 720P (at 30 fps), 720P (at 120 fps),Frame Rate\n120 fps, 30 fps\nDual Camera Lens\nPrimary Camera: 1080",
+      "Battery": "Battery Capacity-\n5000 mAh,Other details-Warranty Summary-\n1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories.\nDomestic Warranty-\n1 Year.",
+      "image": "https://m.media-amazon.com/images/I/8104evx11QL._SL1500_.jpg",
+      "stock": "3left",
+      "id": 4
+    },
+    {
+      "name": "Oppo F23 5G (Bold Gold, 8GB RAM, 256GB Storage)",
+      "price": " 24999",
+      "category": "Oppo",
+      "color": "Gold",
+      "general": "8 GB RAM | 256 GB ROM\n\nIn The Box-\nScreen Protector, SIM Tray Ejector, Phone Case, USB Cable, Adapter.\nModel Number-\nF23 5G,\nModel Name-\nF23 5G | 64MP Rear Triple AI Camera | 6.72\" FHD+ 120Hz,Display\nColor-\nBold Gold,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nYes,\nTouchscreen-\nYes,\nOTG Compatible\n-Yes,\nAdditional Content-\nExpandable Upto 1TB.",
+      "performace": "\nOperating System\n-Android 13 (Tiramisu),\nPrimary Clock Speed-\n1.2 GHz.",
+      "display": "Display Size-\n16.66 cm (6.56 inch),\nResolution-\n2400×1080.",
+      "camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary & Secondary Camera",
+      "battery": "Battery Capacity-\n5000 mAh, Other Features-\nDual SIM, Fingerprint Sensor, Water Resistant,\nWarranty Summary-\n12 Months.",
+      "image": "https://m.media-amazon.com/images/I/81t-iyg0JfL._SL1500_.jpg",
+      "stock": "4left",
+      "id": 5
+    },
+    {
+      "name": "Oppo Reno 10 Pro 5G 12GB 256GB Glossy Purple",
+      "price": "54999",
+      "category": "Oppo",
+      "color": "#d1a3d2",
+      "general": "In The Box Handset, Charger, USB Data Cable, Sim Ejector Tool, Safety Guide,Quick Guide,Protective Case Model Number-CPH2525,Model Name-Reno10 Pro 5G,Color-Glossy Purple,Browse Type-Smartphones,SIM Type-Dual Sim,Hybrid Sim Slot-No Touchscreen-Yes,OTG Compatible-Yes,Quick Charging-Yes",
+      "performace": "Operating System-Android 13,Processor Type-Snapdragon 778G 5G,Processor Core - Octa Core,Primary,Clock Speed-2.4 GHz",
+      "display": " Display Size-17.02 cm (6.7 inch),Resolution- 2412 x 1080 Pixel,Resolution Type-Full HD+GPU Adreno 642L, Display Type-Full HD+ OLED Display",
+      "camera": "Primary Camera-50MP + 32MP + 8MP, Secondary Camera-32MP Front Camera,Video Recording Resolution-4K (at 30 fps),1080p (at 30 fps),\nDigital Zoom-\n20X,\nFrame Rate-\n30 fps,\nDual Camera Lens-\nPrimary Camera.",
+      "battery": "Battery Capacity-4600 mAh, Depth-7.89 mm,Weight-185 g.",
+      "image": "https://assets.sangeethamobiles.com/product_img/13715/1688639906_Vxo.jpg",
+      "stock": "4 left",
+      "id": 6
+    },
+    {
+      "name": "Oppo Reno5 Pro 5G (Astral Blue, 8GB RAM, 128GB Storage)",
+      "price": "32419",
+      "category": "Oppo",
+      "color": "Blue",
+      "general": "In The Box\nHandset, Earphones, USB Cable, Charger, SIM Ejector Tool, Protective Case, Quick Start Guide, Safety Guide\nModel Number-\nCPH2201,\nModel Name-\nReno5 Pro 5G,\nColor-\nAstral Blue\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim",
+      "performace": "Operating System\n-Android 11,\nProcessor Type-\nMediaTek Dimensity 1000+ (MT6889),\nProcessor Core-\nOcta Core,\nPrimary Clock Speed-\n2.6 GHz.",
+      "display": "Display Size-\n16.64 cm (6.55 inch),\nResolution-\n2400 x 1080 Pixels,\nResolution Type-\nFull HD+\nGPU\nARM G77 MC9 (at 836 MHz)\nDisplay Type-\nFull HD+ Super AMOLED Display,\nDisplay Colors-\n16.7M,\nOther Display Features\nScreen to Body Ratio: 92.10%, 60/90Hz Refresh Rate.",
+      "Camera": "Primary Camera-\n64MP + 8MP + 2MP + 2MP,Secondary Camera-\n32MP Front Camera, Flash-\nRear Flash,Full HD Recording\n-Yes,Dual Camera Lens-\nPrimary Camera",
+      "Battery": "Battery Capacity\n-4350 mAh,\nWarranty Summary-\nBrand Warranty of 1 Year Available for Mobile Including Battery and 6 Months for Accessories\nDomestic Warranty-\n1 Year",
+      "image": "https://specifications-pro.com/wp-content/uploads/2020/11/Oppo-Reno-5-Pro-5G.jpg",
+      "stock": "6left",
+      "id": 7
+    },
+    {
+      "name": "Vivo Y16 (Warm White, 4GB RAM, 128GB Storage)",
+      "price": "12999",
+      "category": "Vivo",
+      "color": "#f2f1c9",
+      "general": "In The Box-\nHandset, Documentation, Type-C to USB Cable, USB Power Adapter, Sim Eject Tool, Protective Film (Applied)\nModel Number-\nV2204 | V2214,\nModel Name-\nY16,\nColor-\nWarm White,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot\n-No,\nTouchscreen-\nYes.",
+      "performace": "Operating System\n-Android 12,\nProcessor Type-\nMediatek Helio P35\n,Processor Core-\nOcta Core,\nPrimary Clock Speed\n-2.3 GHz\n,Secondary Clock Speed\n-1.8 GHz,\nOperating Frequency-\n2G GSM: B3/B5/B8, 3G WCDMA: B1/B5/B8, 4G FDD LTE: B1/B3/B5/B8, 4G TDD LTE: B38/B40/B41 (120M).\n",
+      "display": "Display Size-\n16.54 cm (6.51 inch),\nResolution-\n1600 x 720 Pixel,\nResolution Type-\nHD+\nGPU,\nIMG PowerVR GE8320\nDisplay Type\n-HD+ LCD (IPS) Display\nOther Display Features:\nRefresh Rate: 60 Hz, Screen-to-Body Ratio: 88.99%, Aspect Ratio: 20:9",
+      "Camera": "Primary Camera Features\nDual Camera Setup: 13MP (f/2.2 Aperture) + 2MP (f/2.4 Aperture), Camera Feature: Panorama, Face Beauty, Photo, Video, Live Photo, Timelapse, Pro, Documents,Secondary Camera Features\n5MP Camera Setup: (f/2.2 Aperture),Flash-\nRear Flashlight,\nHD Recording-\nYes,\nVideo Recording-\nYes,\nDual Camera Lens-\nPrimary Camera.",
+      "Battery": "Battery Capacity-\n5000 mAh,Warranty Summary-\n1 Year of Device & 6 Months for In-Box Accessories,\nCovered in Warranty-\n1 Year of Device & 6 Months for In-Box Accessories\nDomestic Warranty-\n1 Year.",
+      "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/i/b/h/y16-v2204-v2214-vivo-original-imagpffbzhwcaxx2.jpeg?q=70",
+      "stock": "3left",
+      "id": 8
+    },
+    {
+      "name": "Realme 11 Pro+ 5G (Astral Black, 12GB RAM, 256GB Storage)",
+      "price": "27,999",
+      "category": "Realme",
+      "color": "Black",
+      "general": "In The Box-\nHandset, Charger, USB Data Cable, Sim Ejector Tool, Safety Guide, Quick Guide, Protective Case,\nModel Number-\nRMX3771,\nModel Name\n-11 Pro 5G\nColor-\nAstral Black,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim.",
+      "performace": "Operating System-\nAndroid 13,\nProcessor Type-\nDimensity 7050\nProcessor Core-\nOcta Core,\nPrimary Clock Speed-\n2.6 GHz,\nSecondary Clock Speed-\n2 GHz,\nOperating Frequency-\n2G GSM: 850 MHz/900 MHz/1800 MHz, 3G WCDMA: B1/B5/B8, 4G LTE FDD: B1/B3/B5/B8/B28A, 4G LTE TDD: B40/B41, 5G NR: n1/n3/n5/n8/n28A/n40/n41/n77/n78.",
+      "display": "Display Size\n-17.02 cm (6.7 inch),\nResolution-\n2412 x 1080 Pixels,\nResolution Type-\nFull HD+\nGPU\nMali-G68 MC4,\nDisplay Type-\nFull HD+ OLED Display,\nDisplay Colors-\n10 Bit Color\nOther Display Features-\nScreen-to-Body Ratio: 93.6%, Color Saturation: DCI-P3 100%, Aspect Ratio: 20.1:9, Contrast Ratio: 5000000:1, Sunshine Screen, Brightness: 500 nits, Peak Brightness: 950 nits, Refresh Ratio: 60 Hz/ 90 Hz/ 120 Hz, 360 Hz Touch Sampling Rate, Dimming Mode: ?90nit: PWM2160HZ, >90nit: DC.",
+      "Camera": "Primary Camera-\n100MP (OIS) + 2MP, Secondary Camera\n-16MP Front Camera,HD Recording\nYes,\nFull HD Recording-\nYes,\nVideo Recording-\nYes.",
+      "Battery": "\nBattery Capacity-\n5000 mAh,\nBattery Type-\nLithium-ion Polymer.\nWarranty Summary\n:1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories\nDomestic Warranty:\n1 Year",
+      "image": "https://m.media-amazon.com/images/I/51kbvqII2DL.jpg",
+      "stock": "3left",
+      "id": 9
+    },
+    {
+      "name": "POCO X4 Pro 5G (Laser Blue, 6GB RAM 128GB Storage)",
+      "price": "19999",
+      "category": "Poco",
+      "color": "#4790bd",
+      "general": "In The Box-\nHandset, 67W Power Adapter, USB Type A-C Cable, Sim Ejector Tool, Transparent Case, User Guide, Warranty Card\nModel Number-\nMZB0AWDIN,\nModel Name\n-X4 Pro 5G,\nColor-\nLaser Blue,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nYes.\nTouchscreen-\nYes,\nOTG Compatible-\nYes,\nQuick Charging-\nYes.",
+      "performace": "Operating System\n-Android 11,\nProcessor Type-\nQualcomm Snapdragon 695 5G,\nProcessor Core-\nOcta Core.",
+      "display": "Display Size-\n16.94 cm (6.67 inch),\nResolution-\n2400 x 1080 Pixels,\nResolution Type-\nFull HD+ Super AMOLED Display\nGPU\nQualcomm Adreno 619,\nDisplay Type-\nFull HD+ Display\nOther Display Features-\nAspect Ratio: 20:9, In-Cell AMOLED Dot Display with 120Hz Refresh Rate, 1200 nits Peak Brightness, Contrast Ratio: 4500000:1, NTSC Ratio: Supports DCI-P3 Color Gamut, Screen Mirror/ Cast: Yes.\n",
+      "Camera": "Primary Camera-\n64MP + 8MP + 2MP, Secondary Camera-\n16MP Front Camera,Flash-\nRear Flash,\nHD Recording-\nYes,\nFull HD Recording-\nYes,\nVideo Recording-\nYes,\nVideo Recording Resolution\nRear Camera: 1080p (at 30 fps) | Front Camera: 1080p (at 30 fps),\nFrame Rate-\n30 fps,\nDual Camera Lens-Primary Camera.",
+      "Battery": "\nBattery Capacity-5000 mAh,\nWarranty Summary-\nOne Year for Handset, 6 Months for Accessories,\nDomestic Warranty-\n1 Year.",
+      "image": "https://m.media-amazon.com/images/I/61yyz4BJzVL.jpg",
+      "stock": "3left",
+      "id": 10
+    },
+    {
+      "name": "Realme narzo N55 (Prime Black, 4GB RAM +64GB Storage)",
+      "price": "11194",
+      "category": "Realme",
+      "color": "Prime Black",
+      "general": "In The Box-\nHandset, Adapter, Data Cable, Sim Card Tool, User Manual,\nModel Number-\nRMX3710,\nModel Name-\nNarzo N55,\nColor-\nPrime Black,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nNo,\nTouchscreen-Yes,\nOTG Compatible-\nNo.",
+      "performace": "Operating System-\nAndroid 13,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed-2 MHz.",
+      "display": "Display Size-\n17.07 cm (6.72 inch), Resolution-\n1080x2400$$Pixels.",
+      "Camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary Camera",
+      "Battery": "\nBattery Capacity-\n5000 mAh, Warranty Summary-\n1 Year ,Domestic Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+      "image": "https://m.media-amazon.com/images/I/81ogvU1j6qL._SL1500_.jpg",
+      "stock": "3left",
+      "id": 11
+    },
+    {
+      "name": "SAMSUNG Galaxy F23 5G (Forest Green, 128 GB)  (6 GB RAM)",
+      "price": "16999",
+      "category": "Samsung",
+      "color": "#355355",
+      "general": "In The Box-Handset, Data Cable (USB Type C-to-C), Sim Ejection Pin, Quick Start Guide,\nModel Number-\nSM-E236BZGHINS,\nModel Name-\nGalaxy F23 5G,\nColor-\nForest Green,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim-\nHybrid Sim Slot-\nNo,\nTouchscreen-\nYes.\nOTG Compatible-\nYes,\nQuick Charging-\nYes.",
+      "performace": "Operating System-\nAndroid 12,\nProcessor Type-\nQualcomm Snapdragon 750G,Processor Core-Octa Core,\nPrimary Clock Speed-\n2.2 GHz,\nSecondary Clock Speed-2.2 GHz.",
+      "display": "Display Size-\n16.76 cm (6.6 inch),\nResolution-\n2408 x 1080 Pixels,\nResolution Type-\nFull HD+\nGPU\nQualcomm Adreno 619,\nDisplay Type-\nFull HD+",
+      "Camera": "Primary Camera-\n50MP + 8MP + 2MP, Secondary Camera\n-8MP Front Camera,Flash-\nYes,\nHD Recording-\nYes,\nVideo Recording-\nYes,\nDigital Zoom-\n10X,\nFrame Rate-\n30 fps,\nImage Editor-\nYes,\nDual Camera Lens-\nPrimary Camera.",
+      "Battery": "Battery Capacity-\n5000 mAh.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/p/z/-original-imagcg22pf79cgau.jpeg?q=70",
+      "stock": "3left",
+      "id": 12
+    },
+    {
+      "id": "c954",
+      "name": "Apple iphone 15 pro max",
+      "price": 1150000,
+      "category": "Smartphones",
+      "stock": 20,
+      "description": "FORGED IN TITANIUM — iPhone 15 Pro Max has a strong and light aerospace-grade titanium design with a textured matte-glass back. It also features a Ceramic Shield front that’s tougher than any smartphone glass. And it’s splash, water, and dust resistant.",
+      "color": "#d9a1a1",
+      "specifications": {
+        "performance": "ddfdfd",
+        "display": "dfdddfd",
+        "camera": "dfdgdf",
+        "battery": "fdgfdg"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/31wHpKYsdhL._SY445_SX342_QL70_FMwebp_.jpg"
+      ]
+    },
+    {
+      "id": "00dc",
+      "name": "iphone 15",
+      "price": 150000,
+      "category": "Smartphones",
+      "stock": 23,
+      "description": "FORGED IN TITANIUM — iPhone 15 Pro Max has a strong and light aerospace-grade titanium design with a textured matte-glass back. It also features a Ceramic Shield front that’s tougher than any smartphone glass. And it’s splash, water, and dust resistant.",
+      "color": "#f0c1c1",
+      "specifications": {
+        "performance": "Chipset: Apple A17 Pro (3 nm)  CPU: Hexa-core (2x3.78 GHz + 4x2.11 GHz)  GPU: Apple GPU (6-core graphics)  Memory: 8GB RAM  Storage Options: 128GB, 256GB, 512GB, 1TB (NVMe)",
+        "display": "Type: LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision  Size: 6.1 inches  Resolution: 1179 x 2556 pixels (~461 ppi)  Brightness: 1000 nits (typical), 2000 nits (HBM)  Protection: Ceramic Shield glass",
+        "camera": "Main Camera: Triple  48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22µm, dual pixel PDAF, sensor-shift OIS  12 MP, f/2.8, 77mm (telephoto), 1/3.5\", 1.0µm, PDAF, OIS, 3x optical zoom  12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55\", 1.4µm, dual pixel PDAF  Features: Dual-LED dual-tone flash, HDR, 4K video recording, Photonic Engine, Deep Fusion, Smart HDR 5, Night mode, LiDAR Scanner",
+        "battery": "Capacity: 3274mAh  Charging: PD2.0, 15W"
+      },
+      "images": [
+        "https://m.media-amazon.com/images/I/31wHpKYsdhL._SY445_SX342_QL70_FMwebp_.jpg"
+      ]
+    }
+  ]
+}

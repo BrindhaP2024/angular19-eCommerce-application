@@ -1,0 +1,53 @@
+<!-- <div class="container">
+  <header class="header">
+    <h1>Featured Products</h1>
+  </header>
+
+  <section class="carousel-section">
+    <div class="carousel">
+      @for (product of featuredProducts(); track product.id) {
+        <div class="carousel-item">
+          <img [src]="product.image" [alt]="product.name" loading="lazy">
+          <div class="product-info">
+            <h3>{{product.name}}</h3>
+            <p class="price">${{product.price}}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+
+  <section class="trendy-products">
+    <h2>Trending Now</h2>
+    <div class="products-grid">
+      @for (product of trendyProducts(); track product.id) {
+        <div class="product-card" (click)="navigateToProduct(product.id)">
+          <div class="product-image">
+            <img [src]="product.image" [alt]="product.name" loading="lazy">
+          </div>
+          <div class="product-details">
+            <h3>{{product.name}}</h3>
+            <p class="price">${{product.price}}</p>
+            <button class="btn-primary">View Details</button>
+          </div>
+        </div>
+      }
+    </div>
+
+    @if (isLoading()) {
+      <div class="loading-skeleton">
+        <div class="skeleton-card" *ngFor="let i of [1,2,3,4]">
+          <div class="skeleton-image"></div>
+          <div class="skeleton-text"></div>
+        </div>
+      </div>
+    }
+
+    @if (error()) {
+      <div class="error-message">
+        <p>{{error()}}</p>
+        <button (click)="retryLoading()">Retry</button>
+      </div>
+    }
+  </section>
+</div> -->
