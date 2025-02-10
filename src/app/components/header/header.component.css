@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fc;
+}
+
+/* Navbar container */
+.nav {
+  background-color: #fff;
+  padding: 10px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo section */
+.nav h1 a {
+  color: #5e72e4;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Navbar list */
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin: 0 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.nav a i {
+  margin-right: 8px;
+}
+
+.nav a:hover {
+  color: #5e72e4;
+  background-color: #f1f4ff;
+  border-radius: 5px;
+}
+
+/* Active link styling */
+.nav a.active {
+  color: #5e72e4;
+  font-weight: bold;
+}
+
+/* Navbar for logged in user */
+.nav [ngSwitchCase='user'] {
+  margin-left: auto;
+}
+
+.nav [ngSwitchCase='user'] li {
+  display: inline-block;
+}
+
+/* Logout button */
+.nav [ngSwitchCase='user'] li a {
+  color: #e74c3c;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 15px;
+}
+
+.nav [ngSwitchCase='user'] li a:hover {
+  background-color: #fbe1e1;
+  color: #e74c3c;
+  border-radius: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
+}

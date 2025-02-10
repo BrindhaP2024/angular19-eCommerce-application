@@ -18,7 +18,7 @@ interface ProductData {
     camera: string;
     battery: string;
   };
-  images: string[];
+  image: string[];
 }
 
 @Component({
@@ -49,9 +49,9 @@ export class AddProductComponent implements OnInit {
   constructor() {
     this.productForm = this.fb.group({
       name: ["", [Validators.required]],
-      price: [null, [Validators.required, Validators.min(0)]],
+      price: [null, [Validators.required]],
       category: ["", Validators.required],
-      stock: [0, [Validators.required, Validators.min(0)]],
+      stock: [0, [Validators.required]],
       description: ["", Validators.required],
       color: ["#000000"],
       specifications: this.fb.group({
@@ -82,7 +82,7 @@ export class AddProductComponent implements OnInit {
         this.isSubmitting = true;
         const productData: ProductData = {
           ...this.productForm.value,
-          images: this.imageUrls
+          image: this.imageUrls
         };
 
         await this.dataService.addProduct(productData).toPromise();
@@ -93,7 +93,7 @@ export class AddProductComponent implements OnInit {
 
         setTimeout(() => {
           this.addProductMessage = null;
-          window.location.reload(); // Reload the page to reflect new products
+          window.location.reload();
         }, 3000);
       } catch (error) {
         console.error("Error adding product:", error);

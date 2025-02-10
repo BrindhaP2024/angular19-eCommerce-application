@@ -1,0 +1,33 @@
+<p>header works!</p>
+<nav class="nav">
+  <h1><a routerLink="" style="font-family: 'Times New Roman', Times, serif; font-size: 30px;">Smart Mobile Zone</a></h1>
+  <div [ngSwitch]="menuType">
+    <!-- Default menu for non-logged in users -->
+    <ul *ngSwitchCase="'default'">
+      <li [routerLink]="['/productpage']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">
+        <i class="fa fa-home"></i> Products
+      </li>
+      <li [routerLink]="['/home']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">
+        <i class="fa fa-info-circle"></i> About
+      </li>
+      <li [routerLink]="['/login']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">
+        <i class="fa fa-sign-in"></i> Login
+      </li>
+    </ul>
+
+    <!-- Menu for logged in users -->
+    <ul *ngSwitchCase="'user'">
+      <li [routerLink]="['/home']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">
+        <i class="fa fa-home"></i> Home
+      </li>
+      <li [routerLink]="['/about']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{ exact: true }">
+        <i class="fa fa-info-circle"></i> About
+      </li>
+      <li><i class="fa fa-user"></i> {{ userName | titlecase }}</li>
+      <li (click)="userLogout()">
+        <i class="fa fa-sign-out"></i> Logout
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>
