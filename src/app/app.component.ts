@@ -14,7 +14,7 @@ import { HeaderComponent } from "./components/header/header.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ButtonModule, ToastModule, NavbarComponent, AddProductComponent, HomeComponent, HeaderComponent],
+  imports: [RouterOutlet, ButtonModule, ToastModule, NavbarComponent, AddProductComponent],
   providers: [MessageService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

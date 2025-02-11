@@ -5,6 +5,8 @@ import { HomeComponent } from './components/home/home.component';
 import { authGuard } from './guards/auth.guard';
 import { AboutComponent } from './components/about/about.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { HeaderComponent } from './components/header/header.component';
+import { AddProductComponent } from './components/addproduct/addproduct.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -12,5 +14,7 @@ export const routes: Routes = [
   { path: 'home', component: HomeComponent, canActivate: [authGuard] },
   {path:'about',component:AboutComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  {path:'productpage',component:HomepageComponent}
+  {path:'productpage',component:HomepageComponent},
+  {path:'header',component:HeaderComponent},
+  {path:'addproduct',component:AddProductComponent}
 ];

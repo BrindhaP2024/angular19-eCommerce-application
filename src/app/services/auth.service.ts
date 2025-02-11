@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { RegisterPostData, User } from '../interfaces/auth';
-import { login,signUp } from '../../../data-type';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -18,6 +17,12 @@ export class AuthService {
   getUserDetails(email: string, password: string): Observable<User[]> {
     return this.http.get<User[]>(
       `${this.baseUrl}/users?email=${email}&password=${password}`
+    );
+  }
+
+  getAdminDetails(email: string, password: string): Observable<User[]> {
+    return this.http.get<User[]>(
+      `${this.baseUrl}/admin?email=${email}&password=${password}`
     );
   }
 }

@@ -8,19 +8,18 @@ import { PasswordModule } from 'primeng/password';
 import { AuthService } from '../../services/auth.service';
 import { MessageService } from 'primeng/api';
 
-
 @Component({
-    selector: 'app-login',
-    imports: [
-        CardModule,
-        InputTextModule,
-        FormsModule,
-        PasswordModule,
-        ButtonModule,
-        RouterLink,
-    ],
-    templateUrl: './login.component.html',
-    styleUrls: ['./login.component.css'],
+  selector: 'app-login',
+  imports: [
+    CardModule,
+    InputTextModule,
+    FormsModule,
+    PasswordModule,
+    ButtonModule,
+    RouterLink,
+  ],
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css'],
 })
 export class LoginComponent {
   login = {
@@ -31,18 +30,42 @@ export class LoginComponent {
   private authService = inject(AuthService);
   private router = inject(Router);
   private messageService = inject(MessageService);
+
   onLogin() {
     const { email, password } = this.login;
-    this.authService.getUserDetails(email, password).subscribe({
+
+    // First check if the login is for an admin
+    this.authService.getAdminDetails(email, password).subscribe({
       next: (response) => {
         if (response.length >= 1) {
+          const admin = response[0];
+          sessionStorage.setItem('admin', JSON.stringify(admin));
           sessionStorage.setItem('email', email);
-          this.router.navigate(['home']);
+          this.router.navigate(['addproduct']);
         } else {
-          this.messageService.add({
-            severity: 'error',
-            summary: 'Error',
-            detail: 'Something went wrong',
+          // If not admin, check if it is a regular user
+          this.authService.getUserDetails(email, password).subscribe({
+            next: (response) => {
+              if (response.length >= 1) {
+                const user = response[0];
+                sessionStorage.setItem('user', JSON.stringify(user));
+                sessionStorage.setItem('email', email);
+                this.router.navigate(['home']);
+              } else {
+                this.messageService.add({
+                  severity: 'error',
+                  summary: 'Error',
+                  detail: 'Invalid credentials or something went wrong',
+                });
+              }
+            },
+            error: () => {
+              this.messageService.add({
+                severity: 'error',
+                summary: 'Error',
+                detail: 'Something went wrong',
+              });
+            },
           });
         }
       },

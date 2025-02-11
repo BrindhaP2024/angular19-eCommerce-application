@@ -4,29 +4,34 @@ import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/rou
 
 @Component({
   selector: 'app-header',
-  imports:[CommonModule,RouterOutlet,RouterLink,RouterLinkActive],
+  imports:[RouterOutlet,RouterLink,RouterLinkActive,CommonModule],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
   menuType: string = 'default';
-  userName: string = '';
-  cartItems = 0;
+  userName: string = '';  // To hold the user's first name
 
   constructor(private router: Router) {}
 
   ngOnInit(): void {
-    if (sessionStorage.getItem('user')) {
-      const userData = JSON.parse(sessionStorage.getItem('user') || '{}');
-      this.userName = userData.name;
+    const user = JSON.parse(sessionStorage.getItem('user') || '{}');
+
+    if (user && user.firstName) {
+      this.userName = user.firstName;
+      console.log(this.userName);
       this.menuType = 'user';
     } else {
       this.menuType = 'default';
     }
   }
 
-  userLogout() {
+
+  userLogout(): void {
     sessionStorage.removeItem('user');
+    sessionStorage.removeItem('email');
     this.router.navigate(['/login']);
+    this.menuType = 'default';
+    // alert("You have logged out! Please visit again!!");
   }
 }

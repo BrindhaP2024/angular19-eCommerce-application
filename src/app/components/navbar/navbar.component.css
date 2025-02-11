@@ -1,4 +1,4 @@
-/* Navbar styles */
+
 .navbar {
   background-color: #ff5722;
   color: white;
@@ -35,7 +35,7 @@
   margin: 0 10px;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;

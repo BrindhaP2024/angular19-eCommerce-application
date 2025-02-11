@@ -8,13 +8,13 @@
     },
     {
       "fullName": "Test User",
-      "email": "haseenakhader.uk@gmail.com",
+      "email": "uk@gmail.com",
       "password": "123",
       "id": "2"
     },
     {
       "fullName": "Test User",
-      "email": "haseenakhader.uk@gmail.com",
+      "email": "uk@gmail.com",
       "password": "123456",
       "id": "3"
     },
@@ -42,6 +42,23 @@
       "lastName": "Palani",
       "email": "brindha@gmail.com",
       "password": "Brindha@12"
+    },
+    {
+      "id": "b608",
+      "firstName": "Brindha",
+      "lastName": "Palani",
+      "email": "brindhabean@gmail.com",
+      "password": "Brin!01234"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "role": "admin"
     }
   ],
   "products": [
@@ -56,7 +73,7 @@
       "camera": "Primary Camera-\n50MP + 32MP + 8MP, Secondary Camera-32MP Front Camera,Video Recording Resolution-4K (at 30 fps),1080p (at 30 fps),\nDigital Zoom-\n20X,\nFrame Rate-\n30 fps,\nDual Camera Lens-\nPrimary Camera.",
       "Battery": "\nBattery Capacity-4600 mAh, Depth-\n7.89 mm,\nWeight-\n185 g.",
       "image": "https://assets.sangeethamobiles.com/product_img/13715/1688639906_Vxo.jpg",
-      "Stock": "4 left",
+      "stock": "4",
       "id": 1
     },
     {
@@ -70,7 +87,7 @@
       "Camera": "Primary Camera-\n50MP Rear Camera.",
       "Battery": "Battery Capacity\n-6000 mAh,Warranty Summary-1 year",
       "image": "https://m.media-amazon.com/images/I/817WWpaFo1L._SX679_.jpg",
-      "stock": "5left",
+      "stock": "5",
       "id": 2
     },
     {
@@ -84,7 +101,7 @@
       "Camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary & Secondary Camera",
       "Battery": "Battery Capacity-\n5000 mAh, Other Features-\nDual SIM, Fingerprint Sensor, Water Resistant,\nWarranty Summary-\n12 Months.",
       "image": "https://m.media-amazon.com/images/I/81t-iyg0JfL._SL1500_.jpg",
-      "stock": "4left",
+      "stock": "4",
       "id": 3
     },
     {
@@ -98,7 +115,7 @@
       "Camera": "Primary Camera\n50MP + 2MP,Primary Camera Features\nDual Camera Setup: 50MP Main Camera (f/1.8 Aperture, FOV: 77 Degree, 5P Lens, Auto Focus Supported, Open-loop Focus Motor) + 2MP (f/2.4 Aperture, FOV: 89 Degree, 3P + IR Lens, Fixed Focus), Features: Night, Videos, Photos, Portrait, Expert, Extra HD, Panoramic, Timelapse, Slow Motion, Sticker, Text Scanner, and Google Lens,Secondary Camera-\n8MP Front Camera,Secondary Camera Features\n8MP Front Camera: (f/2.0 Aperture, FOV: 77 Degree, 4P Lens, Fixed Focus), Feature: Night, Video, Photo, Portrait, Panorama, Timelapse, Sticker,Video Recording Resolution\nRear Camera: 1080P (at 30 fps), 720P (at 30 fps) | Front Camera: 1080P (at 30 fps), 720P (at 30 fps), 720P (at 120 fps),Frame Rate\n120 fps, 30 fps\nDual Camera Lens\nPrimary Camera: 1080",
       "Battery": "Battery Capacity-\n5000 mAh,Other details-Warranty Summary-\n1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories.\nDomestic Warranty-\n1 Year.",
       "image": "https://m.media-amazon.com/images/I/8104evx11QL._SL1500_.jpg",
-      "stock": "3left",
+      "stock": "3",
       "id": 4
     },
     {
@@ -112,7 +129,7 @@
       "camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary & Secondary Camera",
       "battery": "Battery Capacity-\n5000 mAh, Other Features-\nDual SIM, Fingerprint Sensor, Water Resistant,\nWarranty Summary-\n12 Months.",
       "image": "https://m.media-amazon.com/images/I/81t-iyg0JfL._SL1500_.jpg",
-      "stock": "4left",
+      "stock": "4",
       "id": 5
     },
     {
@@ -126,7 +143,7 @@
       "camera": "Primary Camera-50MP + 32MP + 8MP, Secondary Camera-32MP Front Camera,Video Recording Resolution-4K (at 30 fps),1080p (at 30 fps),\nDigital Zoom-\n20X,\nFrame Rate-\n30 fps,\nDual Camera Lens-\nPrimary Camera.",
       "battery": "Battery Capacity-4600 mAh, Depth-7.89 mm,Weight-185 g.",
       "image": "https://assets.sangeethamobiles.com/product_img/13715/1688639906_Vxo.jpg",
-      "stock": "4 left",
+      "stock": "4 ",
       "id": 6
     },
     {
@@ -140,7 +157,7 @@
       "Camera": "Primary Camera-\n64MP + 8MP + 2MP + 2MP,Secondary Camera-\n32MP Front Camera, Flash-\nRear Flash,Full HD Recording\n-Yes,Dual Camera Lens-\nPrimary Camera",
       "Battery": "Battery Capacity\n-4350 mAh,\nWarranty Summary-\nBrand Warranty of 1 Year Available for Mobile Including Battery and 6 Months for Accessories\nDomestic Warranty-\n1 Year",
       "image": "https://specifications-pro.com/wp-content/uploads/2020/11/Oppo-Reno-5-Pro-5G.jpg",
-      "stock": "6left",
+      "stock": "6",
       "id": 7
     },
     {
@@ -154,7 +171,7 @@
       "Camera": "Primary Camera Features\nDual Camera Setup: 13MP (f/2.2 Aperture) + 2MP (f/2.4 Aperture), Camera Feature: Panorama, Face Beauty, Photo, Video, Live Photo, Timelapse, Pro, Documents,Secondary Camera Features\n5MP Camera Setup: (f/2.2 Aperture),Flash-\nRear Flashlight,\nHD Recording-\nYes,\nVideo Recording-\nYes,\nDual Camera Lens-\nPrimary Camera.",
       "Battery": "Battery Capacity-\n5000 mAh,Warranty Summary-\n1 Year of Device & 6 Months for In-Box Accessories,\nCovered in Warranty-\n1 Year of Device & 6 Months for In-Box Accessories\nDomestic Warranty-\n1 Year.",
       "image": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/i/b/h/y16-v2204-v2214-vivo-original-imagpffbzhwcaxx2.jpeg?q=70",
-      "stock": "3left",
+      "stock": "3",
       "id": 8
     },
     {
@@ -168,7 +185,7 @@
       "Camera": "Primary Camera-\n100MP (OIS) + 2MP, Secondary Camera\n-16MP Front Camera,HD Recording\nYes,\nFull HD Recording-\nYes,\nVideo Recording-\nYes.",
       "Battery": "\nBattery Capacity-\n5000 mAh,\nBattery Type-\nLithium-ion Polymer.\nWarranty Summary\n:1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories\nDomestic Warranty:\n1 Year",
       "image": "https://m.media-amazon.com/images/I/51kbvqII2DL.jpg",
-      "stock": "3left",
+      "stock": "3",
       "id": 9
     },
     {
@@ -182,7 +199,7 @@
       "Camera": "Primary Camera-\n64MP + 8MP + 2MP, Secondary Camera-\n16MP Front Camera,Flash-\nRear Flash,\nHD Recording-\nYes,\nFull HD Recording-\nYes,\nVideo Recording-\nYes,\nVideo Recording Resolution\nRear Camera: 1080p (at 30 fps) | Front Camera: 1080p (at 30 fps),\nFrame Rate-\n30 fps,\nDual Camera Lens-Primary Camera.",
       "Battery": "\nBattery Capacity-5000 mAh,\nWarranty Summary-\nOne Year for Handset, 6 Months for Accessories,\nDomestic Warranty-\n1 Year.",
       "image": "https://m.media-amazon.com/images/I/61yyz4BJzVL.jpg",
-      "stock": "3left",
+      "stock": "3",
       "id": 10
     },
     {

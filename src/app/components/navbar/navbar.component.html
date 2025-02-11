@@ -1,11 +1,61 @@
 <nav class="navbar">
   <h1><a routerLink="/productpage">Smart Mobile Zone</a></h1>
-  <ul class="nav-menu">
-    <li><a routerLink="/home"><i class="fas fa-home"></i> Home</a></li>
-    <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
-    <li><a routerLink="/cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
-    <li><a routerLink="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
-  </ul>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'" class="nav-menu">
+      <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
+      <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
+      <li><a routerLink="/cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+      <li><a routerLink="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+    </ul>
+    <ul *ngSwitchCase="'user'" class="nav-menu">
+      <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
+      <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
+      <li><a routerLink="/"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+      <li><a><i class="fas fa-user"></i> {{ userName | titlecase }}</a></li>
+      <li><a (click)="userLogout()"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+    <ul *ngSwitchCase="'admin'" class="nav-menu">
+      <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
+      <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
+      <li><a routerLink="/addproduct"><i class="fas fa-plus-circle"></i> Add Product</a></li>
+      <li><a><i class="fas fa-user-shield"></i> {{ userName | titlecase }}</a></li>
+      <li><a (click)="userLogout()"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+  </div>
 </nav>
+
 <router-outlet></router-outlet>
-<li><a [routerLink]="['/productpage']" routerLinkActive="router-link-active" >Products</a></li>
+
+
+
+
+<!-- <nav class="navbar">
+  <h1><a routerLink="/productpage">Smart Mobile Zone</a></h1>
+  <div @switch(menuType)>{
+    @case('default'){
+    <ul class="nav-menu">
+      <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
+      <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
+      <li><a routerLink="/cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+      <li><a routerLink="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+    </ul>
+  }
+    @case('user'){
+    <ul class="nav-menu">
+      <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
+      <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
+      <li><a routerLink="/cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+      <li><a><i class="fas fa-user"></i> {{ userName | titlecase }}</a></li>
+      <li><a (click)="userLogout()"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+
+    </ul>
+  }
+
+    @default{
+    <p>No menu available.</p>
+    }
+  </div>
+  }
+</nav>
+
+<router-outlet></router-outlet> -->

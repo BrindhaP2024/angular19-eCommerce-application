@@ -1,108 +1,53 @@
-/* Global Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f7fc;
-}
 
-/* Navbar container */
-.nav {
-  background-color: #fff;
-  padding: 10px 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.navbar {
+  background-color: #ff5722;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Logo section */
-.nav h1 a {
-  color: #5e72e4;
+.navbar-logo {
+  color: white;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
-  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-/* Navbar list */
-.nav ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.nav li {
-  margin: 0 15px;
-}
-
-.nav a {
+.navbar a {
+  color: white;
   text-decoration: none;
-  color: #333;
-  font-size: 16px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  padding: 10px 15px;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #e64a19;
+}
+
+.navbar ul {
   display: flex;
-  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.nav a i {
-  margin-right: 8px;
+.navbar li {
+  margin: 0 10px;
 }
 
-.nav a:hover {
-  color: #5e72e4;
-  background-color: #f1f4ff;
-  border-radius: 5px;
+.navbar i {
+  margin-right: 5px;
 }
 
-/* Active link styling */
-.nav a.active {
-  color: #5e72e4;
-  font-weight: bold;
-}
-
-/* Navbar for logged in user */
-.nav [ngSwitchCase='user'] {
-  margin-left: auto;
-}
-
-.nav [ngSwitchCase='user'] li {
-  display: inline-block;
-}
-
-/* Logout button */
-.nav [ngSwitchCase='user'] li a {
-  color: #e74c3c;
-  font-size: 16px;
-  font-weight: 500;
-  padding: 8px 15px;
-}
-
-.nav [ngSwitchCase='user'] li a:hover {
-  background-color: #fbe1e1;
-  color: #e74c3c;
-  border-radius: 5px;
-}
-
-/* Responsive design */
 @media (max-width: 768px) {
-  .nav {
+  .navbar ul {
     flex-direction: column;
-    padding: 20px;
   }
 
-  .nav ul {
-    flex-direction: column;
-    margin-top: 10px;
-  }
-
-  .nav li {
+  .navbar li {
     margin: 10px 0;
   }
 }
