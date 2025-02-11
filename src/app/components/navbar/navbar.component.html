@@ -1,5 +1,6 @@
 <nav class="navbar">
   <h1><a routerLink="/productpage">Smart Mobile Zone</a></h1>
+  <app-search></app-search>
   <div [ngSwitch]="menuType">
     <ul *ngSwitchCase="'default'" class="nav-menu">
       <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>

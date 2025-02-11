@@ -265,6 +265,24 @@
       "image": [
         "https://m.media-amazon.com/images/I/31wHpKYsdhL._SY445_SX342_QL70_FMwebp_.jpg"
       ]
+    },
+    {
+      "id": "8f0f",
+      "name": "POCO C61 Ethereal Blue ",
+      "price": 5900,
+      "category": "Smartphones",
+      "stock": 10,
+      "description": "The POCO C61 in Ethereal Blue offers 4GB RAM and 64GB ROM, expandable up to 1TB, and features a 6.71-inch HD+ display with a 90 Hz refresh rate, powered by the Helio G36 chipset. It comes equipped with an 8MP rear camera and a 5MP front camera, and a 5000 mAh battery with 10W Type-C fast charging. Additional features include Corning Gorilla Glass 3 for durability, a fingerprint sensor, dual SIM support, and a sleek Radiant Ring design",
+      "color": "#1b1818",
+      "specifications": {
+        "performance": "High performance MediaTek Helio G36,upto 2.2GHz; | 6.71\" HD+ 90Hz Display with GG3 Protection | Upto 8GB RAM including 4GB Virtual RAM |64GB Storage | Fast Side fingerprint sensor",
+        "display": "Large 17.04 cm 90Hz dot display with Corning Gorilla Glass 3 protection | 500nits peak brightness | 180Hz Touch sampling Rate",
+        "camera": "Large 17.04 cm 90Hz dot display with Corning Gorilla Glass 3 protection | 500nits peak brightness | 180Hz Touch sampling Rate 8MP AI Dual camera with Google lens, Portrait mode and classic film filters| 5MP Front camera",
+        "battery": "5000mAh(typ) battery and 10W charger in-box with USB Type-C"
+      },
+      "image": [
+        "https://m.media-amazon.com/images/I/41t7AuixJAL._SX300_SY300_QL70_FMwebp_.jpg"
+      ]
     }
   ]
 }

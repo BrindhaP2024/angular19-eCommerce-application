@@ -3,7 +3,6 @@ import { RouterOutlet } from '@angular/router';
 import { MessageService } from 'primeng/api';
 import { ButtonModule } from 'primeng/button';
 import { ToastModule } from 'primeng/toast';
-import { AboutUsComponent } from "./components/about-us/about-us.component";
 import { ProductDetailsComponent } from "./components/productdetails/productdetails.component";
 import { HomepageComponent } from "./components/homepage/homepage.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";

@@ -1,4 +1,4 @@
-<p>productdetails works!</p>
+<!-- <p>productdetails works!</p> -->
 <div class="product-details-container">
   <div class="product-image-section">
     <img [src]="productData().image" [alt]="productData().name" class="product-image" />
@@ -22,7 +22,6 @@
         <span class="material-icons">add</span>
       </button>
     </div>
-
     @if (isInCart()) {
       <button class="remove-cart-btn" (click)="removeFromCart()">
         Remove from Cart
