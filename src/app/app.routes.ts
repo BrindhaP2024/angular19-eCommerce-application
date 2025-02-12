@@ -8,6 +8,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { AddProductComponent } from './components/addproduct/addproduct.component';
 import { UpdateproductComponent } from './components/updateproduct/updateproduct.component';
 import { CartPageComponent } from './components/cart-page/cart-page.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -19,5 +20,7 @@ export const routes: Routes = [
   { path: 'addproduct', component: AddProductComponent },
   { path: 'updateproduct/:id', component: UpdateproductComponent},
   { path:"cartpage",component:CartPageComponent},
+  { path:"dashboard",component:DashboardComponent},
+
   { path: '**', redirectTo: 'login' } // Wildcard route redirected to 'login'
 ];

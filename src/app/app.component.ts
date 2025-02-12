@@ -8,13 +8,12 @@ import { HomepageComponent } from "./components/homepage/homepage.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { AddProductComponent } from "./components/addproduct/addproduct.component";
 import { HomeComponent } from "./components/home/home.component";
-import { HeaderComponent } from "./components/header/header.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ButtonModule, ToastModule, NavbarComponent, AddProductComponent, DashboardComponent],
+  imports: [RouterOutlet, ButtonModule, ToastModule, NavbarComponent],
   providers: [MessageService],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

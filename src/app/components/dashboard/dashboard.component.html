@@ -28,9 +28,9 @@
         <td>{{ item.category }}</td>
         <td>{{ item.performance }}</td>
         <td>{{ item.display }}</td>
-        <td>{{ item.Camera }}</td>
-        <td>{{ item.Battery }}</td>
-        <td>{{ item.Stock }}</td>
+        <td>{{ item.camera }}</td>
+        <td>{{ item.battery }}</td>
+        <td>{{ item.stock }}</td>
         <td>
           <fa-icon (click)="deleteProduct(item.id)" [icon]="icon"></fa-icon>
           <a class="adjust-update-link" routerLink="/updateproduct/{{item.id}}">

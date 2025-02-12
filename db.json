@@ -70,17 +70,17 @@
   ],
   "products": [
     {
-      "name": "Oppo Reno 10 Pro 5G 12GB 256GB Glossy Blue",
+      "name": "Oppo Reno 10 Pro 5G 12GB 256GB Glossy Pink",
       "price": "54999",
       "category": "Oppo",
-      "color": "#d1a3d2",
+      "color": "#e68d8d",
       "general": "In The Box Handset, Charger, USB Data Cable, Sim Ejector Tool, Safety Guide,Quick Guide,Protective Case Model Number-CPH2525,Model Name-Reno10 Pro 5G,Color-Glossy Purple,Browse Type-Smartphones,SIM Type-Dual Sim,Hybrid Sim Slot-No Touchscreen-Yes,OTG Compatible-Yes,Quick Charging-Yes",
-      "performace": "",
-      "display": " Display Size-17.02 cm (6.7 inch),Resolution- 2412 x 1080 Pixel,Resolution Type-Full HD+GPU Adreno 642L, Display Type-Full HD+ OLED Display",
-      "camera": "",
-      "battery": "",
+      "performance": "Processor: Qualcomm Snapdragon 778G 5G\n\nRAM: 12GB\n\nStorage: 256GB (no card slot)\nOperating System: Android 13, upgradable to Android 14\nDisplay: 6.7-inch AMOLED, 1080 x 2412 pixels, 120Hz refresh rate",
+      "display": "Display Size-17.02 cm (6.7 inch),Resolution- 2412 x 1080 Pixel,Resolution Type-Full HD+GPU Adreno 642L, Display Type-Full HD+ OLED Display",
+      "camera": "\t\n\n    Triple Camera Setup: 50MP Main Camera (Sony IMX890 Flagship Sensor, f/1.8 Lens Aperture, 1/1.56 inch Sensor Size (Ultra Sensitive Active Area), 2.0um 4-in-1 Large Pixels (To Ensure Higher Amount of Light Input, Supporting OIS and Full Pixel Omni Directional Focus) + 32MP Telephoto Camera (HD Portrait, Sony IMX709 (Large Photosensitive Area, 1/2.74 inch Sensor Size (Light Sensing Surface Area), f/2.0 Aperture, 0.8um Single Pixel Size, 25cm Closest Focusing Distance, 2X Optical Zoom (Equivalent to a Focal Length of 47mm) + 8MP Ultra Wide Angle Camera (FOV: 112 Degree), Ultra High Resolution Telephoto Camera to Deliver Ultra Clear Portrait Photos, 2X Composition Professional Portrait Focal Lengths (It Ensures Natural and Undistorted Human Faces to Restore the Perspective Closest to the Human Eyes, The Lens Adopts the BG Spin Coating Process to Ensure Purer Image Quality, RGBW Pixel Array with Stronger Sensitivity to Light (60% Increase in Light Input, 35% Increase in Noise Reduction)",
+      "battery": "Battery Capacity: 4600mAh\nCharging: 80W SUPERVOOC wired charging",
       "image": "https://www.oppo.com/content/dam/oppo/product-asset-library/reno/reno13-series/en/reno13-pro/purple-grey/v1/assets/images-ksp-ksp-5-s1-1-100.png.avif",
-      "stock": "",
+      "stock": "4",
       "id": "1"
     },
     {
@@ -274,22 +274,5 @@
       ]
     }
   ],
-  "cart": [
-    {
-      "id": "13f5",
-      "name": "Samsung Galaxy M14 5G (ICY Silver, 6GB, 128GB Storage)",
-      "price": "15000",
-      "category": "Samsung",
-      "color": "Pink",
-      "general": "In The Box\nType-C Data Cable, Quick Start Guide, Sim Ejection Pin,\nModel Number-\nSM-M146B,\nModel Name-\nGalaxy M14 5G,\nColor-\nIcy Silver,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nNo,\nTouchscreen-\nYes,\nOTG Compatible-\nYes.",
-      "performace": "Operating System-Android Android 13.0,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed\n-2.4 GHz.",
-      "display": "Display Size-\n16.76 cm (6.6 inch),\nResolution-\n1080 x 2408 Pixels.",
-      "Camera": "Primary Camera-\n50MP Rear Camera.",
-      "Battery": "Battery Capacity\n-6000 mAh,Warranty Summary-1 year",
-      "image": "https://m.media-amazon.com/images/I/817WWpaFo1L._SX679_.jpg",
-      "stock": "5",
-      "productId": 2,
-      "userId": "d145"
-    }
-  ]
+  "cart": []
 }

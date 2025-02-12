@@ -4,27 +4,24 @@
   </header>
 
   <section class="products-section">
-    <div class="products-grid">
-      @for (product of products; track product.id) {
-        <div class="product-card">
-          <img [src]="product.image" [alt]="product.name" class="product-image" loading="lazy">
-          <div class="product-details">
-            <h3 class="product-name">{{product.name}}</h3>
-            <p class="product-price">₹{{product.price}}</p>
-            <p class="product-category">{{product.category}}</p>
-            <p class="product-stock">{{product.stock}} left </p>
-            <div class="product-footer">
-              <button class="add-to-cart-button" (click)="addToCart(product)">
-                <i class="fa fa-cart-plus"></i> Add to Cart
-              </button>
-              <button class="buy-button" (click)="buyNow(product)">
-                <i class="fa fa-bolt"></i> Buy Now
-              </button>
-            </div>
+    <div class="products-container">
+      <div *ngFor="let product of products; trackBy: trackByProductId" class="product-card">
+        <img [src]="product.image" [alt]="product.name" class="product-image" loading="lazy">
+        <div class="product-details">
+          <h3 class="product-name">{{product.name}}</h3>
+          <p class="product-price">₹{{product.price}}</p>
+          <p class="product-category">{{product.category}}</p>
+          <p class="product-stock">{{product.stock}} left</p>
+          <div class="product-footer">
+            <button class="add-to-cart-button" (click)="addToCart(product)">
+              <i class="fa fa-cart-plus"></i>
+            </button>
+            <button class="buy-button" (click)="buyNow(product)">
+              <i class="fa fa-bolt"></i> Buy
+            </button>
           </div>
         </div>
-      }
+      </div>
     </div>
   </section>
 </div>
-<app-about></app-about>

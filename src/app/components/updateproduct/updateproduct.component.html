@@ -1,102 +1,68 @@
-
-
 <div class="update-product">
-  <h2 style="color:black;">Update Product</h2>
+  <h2>Update Product</h2>
 
   <button class="cancel-button" routerLink="/addProduct">
     <i class="fa fa-times"></i> Cancel
   </button>
-  <p class="message-p">{{productMessage}}</p>
-  <form #addProduct="ngForm"
-  (ngSubmit)="submit(addProduct.value)"
-   class="common-form">
-  <input
-      type="text"
-      class="form-input"
-      placeholder="Enter Product Name"
-      name="name"
-      ngModel="{{productData?.name}}"
-      required
-    />
-<input
-    type="text"
-    class="form-input"
-    placeholder="Enter Product Price"
-    name="price"
-    ngModel="{{productData?.price}}"
-    required
-  />
-<input
-  type="text"
-  class="form-input"
-  placeholder="Enter Product Category"
-  name="category"
-  ngModel="{{productData?.category}}"
-  required
-/>
-<input
-type="color"
-class="form-input"
-placeholder="Enter Product Color"
-name="color"
-ngModel="{{productData?.color}}"
-required
-/>
-<textarea
-type="text"
-class="form-input"
-placeholder="Enter Product Description"
-name="general"
-ngModel="{{productData?.general}}"
-required></textarea>
-<textarea
-type="text"
-class="form-input"
-placeholder="performace"
-name="performace"
-ngModel="{{productData?.performance}}">
-required>
-</textarea>
 
-<textarea
-type="text"
-class="form-input"
-placeholder="Display"
-name="display"
-ngModel="{{productData?.display}}"
-required></textarea>
-<textarea
-type="text"
-class="form-input"
-placeholder="Camera"
-name="camera"
-ngModel="{{productData?.Camera}}"
-required>
-</textarea>
-<textarea
-type="text"
-class="form-input"
-placeholder="Enter battery"
-name="battery"
-ngModel="{{productData?.Battery}}"
-required>
-</textarea>
-<input
-type="text"
-class="form-input"
-placeholder="Enter Product Image URL"
-name="image"
-ngModel="{{productData?.image}}"
-required
-/>
-<input
-type="text"
-class="form-input"
-placeholder="Product in stock"
-name="stock"
-ngModel="{{productData?.Stock}}"
-required
-/>
-<button class="form-button">Update Product</button>
-</form>
+  <p class="message-p">{{ productMessage }}</p>
+
+  <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
+    <div class="form-group">
+      <label>Product Name</label>
+      <input type="text" class="form-input" placeholder="Enter Product Name" name="name" ngModel="{{ productData?.name }}" required />
+    </div>
+
+    <div class="form-group">
+      <label>Price</label>
+      <input type="text" class="form-input" placeholder="Enter Product Price" name="price" ngModel="{{ productData?.price }}" required />
+    </div>
+
+    <div class="form-group">
+      <label>Category</label>
+      <input type="text" class="form-input" placeholder="Enter Product Category" name="category" ngModel="{{ productData?.category }}" required />
+    </div>
+
+    <div class="form-group">
+      <label>Color</label>
+      <input type="color" class="form-input" name="color" ngModel="{{ productData?.color }}" required />
+    </div>
+
+    <div class="form-group">
+      <label>Description</label>
+      <textarea class="form-input" placeholder="Enter Product Description" name="general" ngModel="{{ productData?.general }}" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Performance</label>
+      <textarea class="form-input" placeholder="Performance" name="performance" ngModel="{{ productData?.performance }}" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Display</label>
+      <textarea class="form-input" placeholder="Display" name="display" ngModel="{{ productData?.display }}" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Camera</label>
+      <textarea class="form-input" placeholder="Camera" name="camera" ngModel="{{ productData?.camera }}" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Battery</label>
+      <textarea class="form-input" placeholder="Battery" name="battery" ngModel="{{ productData?.battery }}" required></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>Product Image URL</label>
+      <input type="text" class="form-input" placeholder="Enter Product Image URL" name="image" ngModel="{{ productData?.image }}" required />
+    </div>
+
+    <div class="form-group">
+      <label>Stock</label>
+      <input type="text" class="form-input" placeholder="Product in stock" name="stock" ngModel="{{ productData?.stock }}" required />
+    </div>
+
+    <button type="submit" class="form-button">Update Product</button>
+  </form>
 </div>

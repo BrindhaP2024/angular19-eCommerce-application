@@ -7,7 +7,7 @@ import { product,cart } from '../../interfaces/data-type';
 
 @Component({
   selector: 'app-navbar',
-  imports: [RouterOutlet, RouterLink, CommonModule, SearchComponent],
+  imports: [RouterLink, CommonModule, SearchComponent],
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css'],
 })
@@ -15,6 +15,7 @@ export class NavbarComponent implements OnInit {
   menuType: string = 'default';
   userName: string = '';
   cartItems = 0;
+  menuOpen: boolean = false;
 
   constructor(private router: Router, private productService: ProductService) {}
 
@@ -25,7 +26,7 @@ export class NavbarComponent implements OnInit {
     if (user && user.firstName) {
       this.userName = user.firstName;
       this.menuType = 'user';
-      this.productService.getCartList(user.id); // Fetch cart items for the user
+      this.productService.getCartList(user.id);
     } else if (admin && admin.firstName) {
       this.userName = admin.firstName;
       this.menuType = 'admin';
@@ -45,5 +46,14 @@ export class NavbarComponent implements OnInit {
     localStorage.removeItem('email');
     this.router.navigate(['/login']);
     this.menuType = 'default';
+  }
+  // toggleMenu(): void {
+  //   const menu = document.querySelector('.nav-menu');
+  //   if (menu) {
+  //     menu.classList.toggle('active');
+  //   }
+  // }
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
   }
 }

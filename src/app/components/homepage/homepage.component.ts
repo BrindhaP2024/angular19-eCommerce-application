@@ -13,7 +13,7 @@ import { product,cart } from '../../interfaces/data-type';
   providers: [DataService, HttpClient, RouterLink, CommonModule],
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css'],
-  imports: [CommonModule, AboutComponent]
+  imports: [CommonModule]
 })
 export class HomepageComponent implements OnInit {
   products: any[] = [];

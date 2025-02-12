@@ -1,12 +1,18 @@
-
 .navbar {
-  background-color: #ff5722;
+  background-color: #B5828C;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  flex-wrap: wrap; /* Allow for responsive wrapping */
+}
+
+.navbar h1 {
+  font-size: 24px;
+  flex: 1;
 }
 
 .navbar a {
@@ -17,11 +23,13 @@
 }
 
 .navbar a:hover {
-  color: #e64a19;
+  color: #CE5989;
 }
 
-.navbar h1 {
-  font-size: 24px;
+.search-bar {
+  flex: 2;
+  max-width: 400px; /* Limit the width of the search bar */
+  margin-left: 20px;
 }
 
 .navbar ul {
@@ -39,6 +47,9 @@
   display: none;
   flex-direction: column;
   cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
 
 .hamburger span {
@@ -49,10 +60,24 @@
   transition: all 0.3s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+  /* 767  -responsive for smaller */
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .search-bar {
+    max-width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .navbar ul {
@@ -63,6 +88,12 @@
 
   .navbar ul.active {
     display: flex;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #B5828C;
+    width: 100%;
+    z-index: 10;
   }
 
   .navbar li {
