@@ -9,6 +9,9 @@ export interface login {
 }
 
 export interface product{
+  stock: any;
+  specifications: any;
+id:number,
 Stock: any;
 Battery: any;
 Camera: any;
@@ -22,9 +25,8 @@ additionalImages: any;
   color:string,
   image:string,
   description:string,
-  id:number,
+  // id:number,
   quantity:undefined | number,
-  productId:undefined|number
 }
 export interface cart{
   name:string,

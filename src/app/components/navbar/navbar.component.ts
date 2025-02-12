@@ -2,6 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import { SearchComponent } from "../search/search.component";
+import { ProductService } from '../../services/products.service';
+import { product,cart } from '../../interfaces/data-type';
 
 @Component({
   selector: 'app-navbar',
@@ -12,8 +14,9 @@ import { SearchComponent } from "../search/search.component";
 export class NavbarComponent implements OnInit {
   menuType: string = 'default';
   userName: string = '';
+  cartItems = 0;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private productService: ProductService) {}
 
   ngOnInit(): void {
     const user = JSON.parse(sessionStorage.getItem('user') || '{}');
@@ -22,18 +25,24 @@ export class NavbarComponent implements OnInit {
     if (user && user.firstName) {
       this.userName = user.firstName;
       this.menuType = 'user';
+      this.productService.getCartList(user.id); // Fetch cart items for the user
     } else if (admin && admin.firstName) {
       this.userName = admin.firstName;
       this.menuType = 'admin';
     } else {
       this.menuType = 'default';
     }
+
+    // Subscribe to cart data changes
+    this.productService.cartData.subscribe((items: string | any[]) => {
+      this.cartItems = items.length;
+    });
   }
 
   userLogout(): void {
-    sessionStorage.removeItem('user');
-    sessionStorage.removeItem('admin');
-    sessionStorage.removeItem('email');
+    localStorage.removeItem('user');
+    localStorage.removeItem('admin');
+    localStorage.removeItem('email');
     this.router.navigate(['/login']);
     this.menuType = 'default';
   }

@@ -284,5 +284,55 @@
         "https://m.media-amazon.com/images/I/41t7AuixJAL._SX300_SY300_QL70_FMwebp_.jpg"
       ]
     }
+  ],
+  "cart": [
+    {
+      "id": "cd4b",
+      "name": "Oppo F23 5G (Bold Gold, 8GB RAM, 256GB Storage)",
+      "price": "24999",
+      "category": "Oppo",
+      "color": "Gold",
+      "general": "8 GB RAM | 256 GB ROM\n\nIn The Box-\nScreen Protector, SIM Tray Ejector, Phone Case, USB Cable, Adapter.\nModel Number-\nF23 5G,\nModel Name-\nF23 5G | 64MP Rear Triple AI Camera | 6.72\" FHD+ 120Hz,Display\nColor-\nBold Gold,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nYes,\nTouchscreen-\nYes,\nOTG Compatible\n-Yes,\nAdditional Content-\nExpandable Upto 1TB.",
+      "performace": "\nOperating System\n-Android 13 (Tiramisu),\nPrimary Clock Speed-\n1.2 GHz.",
+      "display": "Display Size-\n16.66 cm (6.56 inch),\nResolution-\n2400×1080.",
+      "Camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary & Secondary Camera",
+      "Battery": "Battery Capacity-\n5000 mAh, Other Features-\nDual SIM, Fingerprint Sensor, Water Resistant,\nWarranty Summary-\n12 Months.",
+      "image": "https://m.media-amazon.com/images/I/81t-iyg0JfL._SL1500_.jpg",
+      "stock": "4",
+      "productId": 3,
+      "userId": "d145"
+    },
+    {
+      "id": "cebb",
+      "name": "Oppo A78 5G (Glowing Blue, 8GB RAM, 128 Storage)",
+      "price": "18999",
+      "category": "Oppo",
+      "color": "Blue",
+      "general": "In The Box-\nHandset, Charger, USB Data Cable, Sim Ejector Tool, Quick Guide, Safety Guide, Protective Case.\nModel Number-\nCPH2495,\nModel Name-\nA78 5G,\nColor-\nGlowing Blue\n,Browse Type-\nSmartphones\nSIM Type-\nDual Sim-Yes",
+      "performace": "Operating System-\nAndroid 13,\nProcessor Type-\n6833,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed\n-2.2 GHz\nOperating Frequency\n-2G GSM: 850 MHz/900 MHz/1800 MHz, 3G WCDMA: B1/B5/B8, 4G LTE FDD: B1/B3/B5/B8/B28A, 4G LTE TDD: B39/B40/B41, 5G NR: n1/n5/n8/n28A/n41/n78.",
+      "display": "Display Size-\n16.66 cm (6.56 inch)\n,Resolution-\n1612 x 720 Pixels\nResolution Type-\nHD+\nGPU\nMali-G57 MC2\nDisplay Type-\nLCD Display,\nDisplay Colors-\n16.7 Million (8 Bit),\nOther Display Features-\n90Hz Refresh Rate, Screen-to-Body Ratio: 89.8%, 90Hz Touch Sampling Rate, Color Gamut: Vivid Mode (96% NTSC/100% DCI-P3), Gentle Mode (72% NTSC/100% sRGB), Brightness: 480nits, Brightness Under Sunlight: 600nits.\n",
+      "Camera": "Primary Camera\n50MP + 2MP,Primary Camera Features\nDual Camera Setup: 50MP Main Camera (f/1.8 Aperture, FOV: 77 Degree, 5P Lens, Auto Focus Supported, Open-loop Focus Motor) + 2MP (f/2.4 Aperture, FOV: 89 Degree, 3P + IR Lens, Fixed Focus), Features: Night, Videos, Photos, Portrait, Expert, Extra HD, Panoramic, Timelapse, Slow Motion, Sticker, Text Scanner, and Google Lens,Secondary Camera-\n8MP Front Camera,Secondary Camera Features\n8MP Front Camera: (f/2.0 Aperture, FOV: 77 Degree, 4P Lens, Fixed Focus), Feature: Night, Video, Photo, Portrait, Panorama, Timelapse, Sticker,Video Recording Resolution\nRear Camera: 1080P (at 30 fps), 720P (at 30 fps) | Front Camera: 1080P (at 30 fps), 720P (at 30 fps), 720P (at 120 fps),Frame Rate\n120 fps, 30 fps\nDual Camera Lens\nPrimary Camera: 1080",
+      "Battery": "Battery Capacity-\n5000 mAh,Other details-Warranty Summary-\n1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories.\nDomestic Warranty-\n1 Year.",
+      "image": "https://m.media-amazon.com/images/I/8104evx11QL._SL1500_.jpg",
+      "stock": "3",
+      "productId": 4,
+      "userId": "d145"
+    },
+    {
+      "id": "0cee",
+      "name": "Samsung Galaxy M14 5G (ICY Silver, 6GB, 128GB Storage)",
+      "price": "15000",
+      "category": "Samsung",
+      "color": "Pink",
+      "general": "In The Box\nType-C Data Cable, Quick Start Guide, Sim Ejection Pin,\nModel Number-\nSM-M146B,\nModel Name-\nGalaxy M14 5G,\nColor-\nIcy Silver,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nNo,\nTouchscreen-\nYes,\nOTG Compatible-\nYes.",
+      "performace": "Operating System-Android Android 13.0,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed\n-2.4 GHz.",
+      "display": "Display Size-\n16.76 cm (6.6 inch),\nResolution-\n1080 x 2408 Pixels.",
+      "Camera": "Primary Camera-\n50MP Rear Camera.",
+      "Battery": "Battery Capacity\n-6000 mAh,Warranty Summary-1 year",
+      "image": "https://m.media-amazon.com/images/I/817WWpaFo1L._SX679_.jpg",
+      "stock": "5",
+      "productId": 2,
+      "userId": "d145"
+    }
   ]
 }

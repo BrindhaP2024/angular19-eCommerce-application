@@ -1,5 +1,3 @@
-import { product } from './../../../../Angular-Project/data-type';
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
