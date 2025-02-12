@@ -5,13 +5,13 @@
     <ul *ngSwitchCase="'default'" class="nav-menu">
       <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
       <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
-      <li><a routerLink="/cart"><i class="fas fa-shopping-cart"></i> Cart ({{ cartItems }})</a></li>
+      <li><a routerLink="/cartpage"><i class="fas fa-shopping-cart"></i> Cart ({{ cartItems }})</a></li>
       <li><a routerLink="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
     </ul>
     <ul *ngSwitchCase="'user'" class="nav-menu">
       <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
       <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
-      <li><a routerLink="/cart"><i class="fas fa-shopping-cart"></i> Cart ({{ cartItems }})</a></li>
+      <li><a routerLink="/cartpage"><i class="fas fa-shopping-cart"></i> Cart ({{ cartItems }})</a></li>
       <li><a><i class="fas fa-user"></i> {{ userName | titlecase }}</a></li>
       <li><a (click)="userLogout()"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
     </ul>

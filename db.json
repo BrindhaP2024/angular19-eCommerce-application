@@ -303,22 +303,6 @@
       "userId": "d145"
     },
     {
-      "id": "cebb",
-      "name": "Oppo A78 5G (Glowing Blue, 8GB RAM, 128 Storage)",
-      "price": "18999",
-      "category": "Oppo",
-      "color": "Blue",
-      "general": "In The Box-\nHandset, Charger, USB Data Cable, Sim Ejector Tool, Quick Guide, Safety Guide, Protective Case.\nModel Number-\nCPH2495,\nModel Name-\nA78 5G,\nColor-\nGlowing Blue\n,Browse Type-\nSmartphones\nSIM Type-\nDual Sim-Yes",
-      "performace": "Operating System-\nAndroid 13,\nProcessor Type-\n6833,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed\n-2.2 GHz\nOperating Frequency\n-2G GSM: 850 MHz/900 MHz/1800 MHz, 3G WCDMA: B1/B5/B8, 4G LTE FDD: B1/B3/B5/B8/B28A, 4G LTE TDD: B39/B40/B41, 5G NR: n1/n5/n8/n28A/n41/n78.",
-      "display": "Display Size-\n16.66 cm (6.56 inch)\n,Resolution-\n1612 x 720 Pixels\nResolution Type-\nHD+\nGPU\nMali-G57 MC2\nDisplay Type-\nLCD Display,\nDisplay Colors-\n16.7 Million (8 Bit),\nOther Display Features-\n90Hz Refresh Rate, Screen-to-Body Ratio: 89.8%, 90Hz Touch Sampling Rate, Color Gamut: Vivid Mode (96% NTSC/100% DCI-P3), Gentle Mode (72% NTSC/100% sRGB), Brightness: 480nits, Brightness Under Sunlight: 600nits.\n",
-      "Camera": "Primary Camera\n50MP + 2MP,Primary Camera Features\nDual Camera Setup: 50MP Main Camera (f/1.8 Aperture, FOV: 77 Degree, 5P Lens, Auto Focus Supported, Open-loop Focus Motor) + 2MP (f/2.4 Aperture, FOV: 89 Degree, 3P + IR Lens, Fixed Focus), Features: Night, Videos, Photos, Portrait, Expert, Extra HD, Panoramic, Timelapse, Slow Motion, Sticker, Text Scanner, and Google Lens,Secondary Camera-\n8MP Front Camera,Secondary Camera Features\n8MP Front Camera: (f/2.0 Aperture, FOV: 77 Degree, 4P Lens, Fixed Focus), Feature: Night, Video, Photo, Portrait, Panorama, Timelapse, Sticker,Video Recording Resolution\nRear Camera: 1080P (at 30 fps), 720P (at 30 fps) | Front Camera: 1080P (at 30 fps), 720P (at 30 fps), 720P (at 120 fps),Frame Rate\n120 fps, 30 fps\nDual Camera Lens\nPrimary Camera: 1080",
-      "Battery": "Battery Capacity-\n5000 mAh,Other details-Warranty Summary-\n1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories.\nDomestic Warranty-\n1 Year.",
-      "image": "https://m.media-amazon.com/images/I/8104evx11QL._SL1500_.jpg",
-      "stock": "3",
-      "productId": 4,
-      "userId": "d145"
-    },
-    {
       "id": "0cee",
       "name": "Samsung Galaxy M14 5G (ICY Silver, 6GB, 128GB Storage)",
       "price": "15000",
