@@ -51,7 +51,7 @@ export class ProductService {
   }
 
   // Fetch current cart data
-  currentCart(userId: any): Observable<cart[]> {
+  currentCart(userId: number): Observable<cart[]> {
     return this.http.get<cart[]>(`${this.cartApiUrl}?userId=${userId}`);
   }
 }

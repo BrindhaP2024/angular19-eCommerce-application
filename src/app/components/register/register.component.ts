@@ -30,7 +30,7 @@ export class RegisterComponent {
   private registerService = inject(AuthService);
   private messageService = inject(MessageService);
   private router = inject(Router);
-
+  
   registerForm = new FormGroup(
     {
       firstName: new FormControl('', [

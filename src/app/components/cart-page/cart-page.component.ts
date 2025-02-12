@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { priceSummary,cart } from '../../interfaces/data-type';
+import { cart, priceSummary } from '../../interfaces/data-type';
 import { ProductService } from '../../services/products.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-cart-page',
-  imports:[CommonModule],
+  imports: [CommonModule],
   templateUrl: './cart-page.component.html',
   styleUrls: ['./cart-page.component.css']
+  
 })
 export class CartPageComponent implements OnInit {
   cartData: cart[] | undefined;
@@ -40,6 +41,7 @@ export class CartPageComponent implements OnInit {
     if (userId) {
       this.product.currentCart(userId).subscribe((result) => {
         this.cartData = result;
+        console.warn(this.cartData);
         let price = 0;
         result.forEach((item) => {
           if (item.quantity) {
@@ -47,10 +49,11 @@ export class CartPageComponent implements OnInit {
           }
         });
         this.priceSummary.price = price;
-        this.priceSummary.discount = price / 10;
-        this.priceSummary.tax = price / 10;
+        this.priceSummary.discount = price * 0.1;
+        this.priceSummary.tax = price * 0.18;
         this.priceSummary.delivery = 100;
-        this.priceSummary.total = price + (price / 10) + 100 - (price / 10);
+        this.priceSummary.total = price - this.priceSummary.discount + this.priceSummary.tax + this.priceSummary.delivery;
+
         if (!this.cartData.length) {
           this.router.navigate(['/']);
         }

@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from "@angular/core";
+import { Component, OnInit, ViewEncapsulation, inject } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from "@angular/forms";
@@ -26,7 +26,8 @@ interface ProductData {
   standalone: true,
   imports: [CommonModule, RouterModule, ReactiveFormsModule],
   templateUrl: "./addproduct.component.html",
-  styleUrls: ["./addproduct.component.css"]
+  styleUrls: ["./addproduct.component.css"],
+  // encapsulation:ViewEncapsulation.Emulated
 })
 export class AddProductComponent implements OnInit {
   private fb = inject(FormBuilder);
