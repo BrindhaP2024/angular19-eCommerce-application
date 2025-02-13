@@ -45,7 +45,7 @@ h2::after {
   content: '';
   width: 50px;
   height: 3px;
-  background: #ff5722;
+  background:#E5989B;
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -64,7 +64,7 @@ ul {
 }
 
 ul li {
-  background: #ff5722;
+  background:#E5989B;
   color: white;
   padding: 10px;
   margin-bottom: 10px;
@@ -74,7 +74,8 @@ ul li {
 
 ul li:hover {
   transform: translateX(10px);
-  background-color: #e64a19;
+  background:#E5989B;
+
 }
 
 img {
@@ -105,11 +106,10 @@ img:hover {
 }
 
 .back-button:hover {
-  background: #e64a19;
+  background:#E5989B;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Animations */
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }

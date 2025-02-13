@@ -6,6 +6,7 @@ import { AboutComponent } from '../about/about.component';
 import { RouterLink } from '@angular/router';
 import { ProductService } from '../../services/products.service';
 import { product,cart } from '../../interfaces/data-type';
+import { ContactFormComponent } from "../contact-form/contact-form.component";
 
 @Component({
   selector: 'app-homepage',
@@ -13,7 +14,7 @@ import { product,cart } from '../../interfaces/data-type';
   providers: [DataService, HttpClient, RouterLink, CommonModule],
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css'],
-  imports: [CommonModule]
+  imports: [CommonModule, ContactFormComponent]
 })
 export class HomepageComponent implements OnInit {
   products: any[] = [];

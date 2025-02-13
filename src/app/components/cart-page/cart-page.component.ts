@@ -9,58 +9,55 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   templateUrl: './cart-page.component.html',
   styleUrls: ['./cart-page.component.css']
-  
 })
 export class CartPageComponent implements OnInit {
-  cartData: cart[] | undefined;
-  priceSummary: priceSummary = {
-    price: 0,
-    discount: 0,
-    tax: 0,
-    delivery: 0,
-    total: 0
-  }
+  cartData: cart[] = [];
+  priceSummary: priceSummary = { price: 0, discount: 0, tax: 0, delivery: 0, total: 0 };
 
-  constructor(private product: ProductService, private router: Router) {}
+  constructor(private productService: ProductService, private router: Router) {}
 
   ngOnInit(): void {
-    this.loadDetails();
+    this.loadCartDetails();
   }
 
-  removeToCart(cartId: number | undefined): void {
-    if (cartId && this.cartData) {
-      this.product.removeToCart(cartId).subscribe(() => {
-        this.loadDetails();
-      });
-    }
-  }
+  loadCartDetails(): void {
+    const user = JSON.parse(localStorage.getItem('user') || '{}');
+    if (user.id) {
+      this.productService.currentCart(user.id).subscribe(cartItems => {
+        this.cartData = cartItems;
+        this.calculatePriceSummary();
 
-  loadDetails(): void {
-    const user = JSON.parse(sessionStorage.getItem('user') || '{}');
-    const userId = user.id;
-    if (userId) {
-      this.product.currentCart(userId).subscribe((result) => {
-        this.cartData = result;
-        console.warn(this.cartData);
-        let price = 0;
-        result.forEach((item) => {
-          if (item.quantity) {
-            price += (+item.price * +item.quantity);
-          }
-        });
-        this.priceSummary.price = price;
-        this.priceSummary.discount = price * 0.1;
-        this.priceSummary.tax = price * 0.18;
-        this.priceSummary.delivery = 100;
-        this.priceSummary.total = price - this.priceSummary.discount + this.priceSummary.tax + this.priceSummary.delivery;
-
-        if (!this.cartData.length) {
+        // Redirect to home if cart is empty
+        if (this.cartData.length === 0) {
           this.router.navigate(['/']);
         }
       });
     }
   }
 
+  // Removing the item from  the cart
+  removeFromCart(cartId?: number): void {
+    if (cartId) {
+      this.productService.removeToCart(cartId).subscribe(() => {
+        this.loadCartDetails();
+      });
+    }
+  }
+
+  //function to
+  // price, discount, tax, and total amount
+  calculatePriceSummary(): void {
+    let totalPrice = this.cartData.reduce((sum, item) => sum + (item.price * (item.quantity || 1)), 0);
+    this.priceSummary = {
+      price: totalPrice,
+      discount: totalPrice * 0.1,
+      tax: totalPrice * 0.18,
+      delivery: 100,
+      total: totalPrice - (totalPrice * 0.1) + (totalPrice * 0.18) + 100
+    };
+  }
+
+  // Navigate to checkout page
   checkout(): void {
     this.router.navigate(['/checkout']);
   }

@@ -15,6 +15,7 @@
 
     <ul *ngSwitchCase="'user'" class="nav-menu" [class.active]="menuOpen">
       <li><a routerLink="/productpage"><i class="fas fa-home"></i> Home</a></li>
+      <li><a routerLink="/contact-form"><i class="fa fa-mobile" aria-hidden="true">      </i>Contact</a></li>
       <li><a routerLink="/about"><i class="fas fa-info-circle"></i> About</a></li>
       <li><a routerLink="/cartpage"><i class="fas fa-shopping-cart"></i> Cart ({{ cartItems }})</a></li>
       <li><a><i class="fas fa-user"></i> {{ userName | titlecase }}</a></li>

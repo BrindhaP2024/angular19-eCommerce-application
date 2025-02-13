@@ -80,7 +80,7 @@
       "camera": "\t\n\n    Triple Camera Setup: 50MP Main Camera (Sony IMX890 Flagship Sensor, f/1.8 Lens Aperture, 1/1.56 inch Sensor Size (Ultra Sensitive Active Area), 2.0um 4-in-1 Large Pixels (To Ensure Higher Amount of Light Input, Supporting OIS and Full Pixel Omni Directional Focus) + 32MP Telephoto Camera (HD Portrait, Sony IMX709 (Large Photosensitive Area, 1/2.74 inch Sensor Size (Light Sensing Surface Area), f/2.0 Aperture, 0.8um Single Pixel Size, 25cm Closest Focusing Distance, 2X Optical Zoom (Equivalent to a Focal Length of 47mm) + 8MP Ultra Wide Angle Camera (FOV: 112 Degree), Ultra High Resolution Telephoto Camera to Deliver Ultra Clear Portrait Photos, 2X Composition Professional Portrait Focal Lengths (It Ensures Natural and Undistorted Human Faces to Restore the Perspective Closest to the Human Eyes, The Lens Adopts the BG Spin Coating Process to Ensure Purer Image Quality, RGBW Pixel Array with Stronger Sensitivity to Light (60% Increase in Light Input, 35% Increase in Noise Reduction)",
       "battery": "Battery Capacity: 4600mAh\nCharging: 80W SUPERVOOC wired charging",
       "image": "https://www.oppo.com/content/dam/oppo/product-asset-library/reno/reno13-series/en/reno13-pro/purple-grey/v1/assets/images-ksp-ksp-5-s1-1-100.png.avif",
-      "stock": "4",
+      "stock": "7",
       "id": "1"
     },
     {
@@ -215,12 +215,12 @@
       "category": "Realme",
       "color": "Prime Black",
       "general": "In The Box-\nHandset, Adapter, Data Cable, Sim Card Tool, User Manual,\nModel Number-\nRMX3710,\nModel Name-\nNarzo N55,\nColor-\nPrime Black,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim,\nHybrid Sim Slot-\nNo,\nTouchscreen-Yes,\nOTG Compatible-\nNo.",
-      "performace": "Operating System-\nAndroid 13,\nProcessor Core-\nOcta Core,\nPrimary Clock Speed-2 MHz.",
+      "performance": "",
       "display": "Display Size-\n17.07 cm (6.72 inch), Resolution-\n1080x2400$$Pixels.",
-      "Camera": "Primary Camera-\n64MP Rear Camera,\nDual Camera Lens-\nPrimary Camera",
-      "Battery": "\nBattery Capacity-\n5000 mAh, Warranty Summary-\n1 Year ,Domestic Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+      "camera": "",
+      "battery": "",
       "image": "https://m.media-amazon.com/images/I/81ogvU1j6qL._SL1500_.jpg",
-      "stock": "3left",
+      "stock": "3",
       "id": "11"
     },
     {
@@ -229,12 +229,12 @@
       "category": "Samsung",
       "color": "#355355",
       "general": "In The Box-Handset, Data Cable (USB Type C-to-C), Sim Ejection Pin, Quick Start Guide,\nModel Number-\nSM-E236BZGHINS,\nModel Name-\nGalaxy F23 5G,\nColor-\nForest Green,\nBrowse Type-\nSmartphones,\nSIM Type-\nDual Sim-\nHybrid Sim Slot-\nNo,\nTouchscreen-\nYes.\nOTG Compatible-\nYes,\nQuick Charging-\nYes.",
-      "performace": "Operating System-\nAndroid 12,\nProcessor Type-\nQualcomm Snapdragon 750G,Processor Core-Octa Core,\nPrimary Clock Speed-\n2.2 GHz,\nSecondary Clock Speed-2.2 GHz.",
+      "performance": "",
       "display": "Display Size-\n16.76 cm (6.6 inch),\nResolution-\n2408 x 1080 Pixels,\nResolution Type-\nFull HD+\nGPU\nQualcomm Adreno 619,\nDisplay Type-\nFull HD+",
-      "Camera": "Primary Camera-\n50MP + 8MP + 2MP, Secondary Camera\n-8MP Front Camera,Flash-\nYes,\nHD Recording-\nYes,\nVideo Recording-\nYes,\nDigital Zoom-\n10X,\nFrame Rate-\n30 fps,\nImage Editor-\nYes,\nDual Camera Lens-\nPrimary Camera.",
-      "Battery": "Battery Capacity-\n5000 mAh.",
+      "camera": "",
+      "battery": "",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/p/z/-original-imagcg22pf79cgau.jpeg?q=70",
-      "stock": "3left",
+      "stock": "3",
       "id": "12"
     },
     {
