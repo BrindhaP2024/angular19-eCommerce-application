@@ -15,6 +15,11 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
+  // {
+  //   path: 'register',
+  //   loadChildren: () => import('./register/register.module').then(m => m.RegisterModule)
+  // },
+
   { path: 'home', component: HomeComponent, canActivate: [authGuard] },
   { path: 'about', component: AboutComponent },
   { path: '', redirectTo: 'homepage', pathMatch:'full' },
@@ -28,3 +33,5 @@ export const routes: Routes = [
 
   { path: '**', redirectTo: 'login',title:'Not-found'}
 ];
+
+

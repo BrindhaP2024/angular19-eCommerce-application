@@ -7,8 +7,9 @@ import { product, cart } from '../interfaces/data-type';
   providedIn: 'root'
 })
 export class ProductService {
-  private productApiUrl = 'http://localhost:3000/products';
   private cartApiUrl = 'http://localhost:3000/cart';
+  private productApiUrl = 'http://localhost:3000/products';
+
   cartData = new BehaviorSubject<cart[]>([]);
 
   constructor(private http: HttpClient) {}
@@ -49,9 +50,11 @@ export class ProductService {
   removeToCart(cartId: number): Observable<void> {
     return this.http.delete<void>(`${this.cartApiUrl}/${cartId}`);
   }
-
-  // Fetch current cart data
-  currentCart(userId: number): Observable<cart[]> {
+  // helps to fetch current cart data when the logged in user adds to the cart
+  currentCart(userId:number):Observable<cart[]>{
     return this.http.get<cart[]>(`${this.cartApiUrl}?userId=${userId}`);
   }
+
+
 }
+
